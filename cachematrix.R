@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These function set the value of a matrix and calculate the inverse  and saves the results. Since  
+## calculating the inverse can be time consuming, it first checks to see it it has already been calculated,
+## and if it has, it pulls the cached results.
 
 ## The first function, `makeCacheMatrix` creates a special "matrix", which is 
 ## really a list containing a function to
